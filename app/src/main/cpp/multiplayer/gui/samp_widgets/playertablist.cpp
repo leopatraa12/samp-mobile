@@ -1,4 +1,4 @@
-﻿#include "playerTabList.h"
+﻿#include "playertablist.h"
 #include "../../game/game.h"
 #include "../../net/netgame.h"
 #include "../gui/gui.h"

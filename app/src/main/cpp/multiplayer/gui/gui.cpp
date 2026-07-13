@@ -5,7 +5,7 @@
 #include "../playertags.h"
 #include "../net/playerbubblepool.h"
 #include "vendor/str_obfuscator/str_obfuscator.hpp"
-#include "../game/mobile/MobileMenu/MobileMenu.h"
+#include "../game/Mobile/MobileMenu/MobileMenu.h"
 // voice
 #include "../voice_new/Plugin.h"
 #include "../voice_new/MicroIcon.h"
