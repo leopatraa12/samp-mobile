@@ -1,0 +1,38 @@
+# Local machine config (contains developer-specific SDK path)
+local.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Build outputs
+/build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Native (CMake/NDK) build intermediates
+app/.cxx/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.hprof
+.navigation/
+captures/
+
+# Note: app/aurora.jks (release signing keystore) is intentionally NOT
+# ignored — it is committed to this repo by design (see CLAUDE.md).
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

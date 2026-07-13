@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:visibility="visible"
+     android:id="@+id/main_hud">
+
+    <ImageView
+        android:id="@+id/logoServidor"
+        android:layout_width="137dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logoservidor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_height="@dimen/_80sdp"
+         android:layout_width="@dimen/_160sdp"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         android:id="@+id/hud_info_layout">
+
+        <TextView
+             android:layout_height="@dimen/_11sdp"
+             android:layout_width="@dimen/_80sdp"
+             android:paddingRight="@dimen/_5sdp"
+             android:textSize="@dimen/_7sdp"
+             android:textColor="#ffffff"
+             android:layout_marginTop="@dimen/_5sdp"
+             app:layout_constraintTop_toBottomOf="@+id/samp_buttons_layout"
+             android:gravity="right"
+             android:background="@drawable/money_bg"
+             android:fontFamily="@font/montserrat_semibold"
+             android:layout_marginRight="@dimen/_7sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             android:id="@+id/hud_money"
+             android:text="R$ 2,990,000" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_height="@dimen/_22sdp"
+             android:layout_width="wrap_content"
+             app:layout_constraintTop_toTopOf="parent"
+             android:orientation="horizontal"
+             android:layout_marginRight="@dimen/_5sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             android:layout_marginTop="@dimen/_3sdp"
+             android:id="@+id/samp_buttons_layout">
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="@dimen/_22sdp"
+                 android:scaleType="fitCenter"
+                 android:adjustViewBounds="true"
+                 android:background="@drawable/button_menu"
+                 app:layout_constraintStart_toStartOf="parent"
+                 android:id="@+id/hud_button_menu" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+         android:layout_height="@dimen/_75sdp"
+         android:layout_width="@dimen/_75sdp"
+         android:layout_marginBottom="@dimen/_12sdp"
+         app:layout_constraintTop_toTopOf="@+id/radar_layout"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintBottom_toBottomOf="@+id/radar_layout"
+         android:id="@+id/radar_zone" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_height="@dimen/_90sdp"
+         android:layout_width="@dimen/_90sdp"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         android:layout_marginTop="@dimen/_10sdp"
+         android:id="@+id/radar_layout">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             app:layout_constraintStart_toStartOf="@+id/select_weapon"
+             android:textSize="@dimen/_5sdp"
+             android:fontFamily="@font/montserrat_semibold"
+             android:textColor="#ffffff"
+             android:layout_marginLeft="@dimen/_1sdp"
+             app:layout_constraintEnd_toEndOf="@+id/select_weapon"
+             app:layout_constraintTop_toBottomOf="@+id/select_weapon"
+             android:id="@+id/hud_ammo"
+             android:text="0/0" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_height="@dimen/_30sdp"
+             android:layout_width="@dimen/_30sdp"
+             android:layout_marginBottom="@dimen/_13sdp"
+             android:background="@drawable/weapon_bg"
+             android:layout_marginRight="@dimen/_13sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/select_weapon">
+
+            <ImageView
+                 android:layout_height="@dimen/_20sdp"
+                 android:layout_width="@dimen/_20sdp"
+                 android:src="@drawable/weapon_0"
+                 app:layout_constraintTop_toTopOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 android:id="@+id/weapon_button" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+             android:layout_height="@dimen/_8sdp"
+             android:layout_width="@dimen/_8sdp"
+             android:layout_marginBottom="@dimen/_7sdp"
+             android:src="@drawable/ic_starnew_off"
+             app:layout_constraintTop_toTopOf="parent"
+             android:layout_marginRight="@dimen/_7sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/star_1" />
+
+        <ImageView
+             android:layout_height="@dimen/_8sdp"
+             android:layout_width="@dimen/_8sdp"
+             android:layout_marginBottom="@dimen/_28sdp"
+             android:src="@drawable/ic_starnew_off"
+             app:layout_constraintTop_toTopOf="parent"
+             android:layout_marginRight="@dimen/_6sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/star_2" />
+
+        <ImageView
+             android:layout_height="@dimen/_8sdp"
+             android:layout_width="@dimen/_8sdp"
+             android:layout_marginBottom="@dimen/_48sdp"
+             android:src="@drawable/ic_starnew_off"
+             app:layout_constraintTop_toTopOf="parent"
+             android:layout_marginRight="@dimen/_9sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/star_3" />
+
+        <ImageView
+             android:layout_height="@dimen/_8sdp"
+             android:layout_width="@dimen/_8sdp"
+             android:layout_marginBottom="@dimen/_68sdp"
+             android:src="@drawable/ic_starnew_off"
+             app:layout_constraintTop_toTopOf="parent"
+             android:layout_marginRight="@dimen/_14sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/star_4" />
+
+        <ImageView
+             android:layout_height="@dimen/_8sdp"
+             android:layout_width="@dimen/_8sdp"
+             android:layout_marginBottom="@dimen/_85sdp"
+             android:src="@drawable/ic_starnew_off"
+             app:layout_constraintTop_toTopOf="parent"
+             android:layout_marginRight="@dimen/_22sdp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/star_5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- FOME -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/hud_logo_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- STATUS PLAYER -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/stats_layout"
+        android:layout_width="139dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- STATUS PLAYER -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- FOME -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_6sdp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/eat_layout"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/eat_bg"/>
+
+            <TextView
+                android:id="@+id/eat_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textColor="#ffd392"
+                android:textSize="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_semibold"/>
+        </LinearLayout>
+
+        <!-- COLETE -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_6sdp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/armour_layout"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/armour_bg"/>
+
+            <TextView
+                android:id="@+id/armour_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textColor="@color/default_blue_light"
+                android:textSize="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_semibold"/>
+        </LinearLayout>
+
+        <!-- VIDA -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/health_layout"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/health_bg"/>
+
+            <TextView
+                android:id="@+id/health_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textColor="#ffb4b4"
+                android:textSize="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_semibold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

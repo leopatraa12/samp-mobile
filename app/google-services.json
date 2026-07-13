@@ -1,0 +1,148 @@
+{
+  "project_info": {
+    "project_number": "1068971652365",
+    "project_id": "ferkusteam-blackjack",
+    "storage_bucket": "ferkusteam-blackjack.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068971652365:android:8a946a5787f2c46fe8ac44",
+        "android_client_info": {
+          "package_name": "com.aurora.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068971652365-8pjnj92i6jkmd7p1rf9b0bnmmt1iinr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurora.game",
+            "certificate_hash": "bbfe7a59418b02c48540da1210818168e38725ce"
+          }
+        },
+        {
+          "client_id": "1068971652365-vpckjt9bhpedh5d3ru9lea2dj5squbic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyRHekdsWgecf0b1yl7vB_BuZAgaKKUYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068971652365-vpckjt9bhpedh5d3ru9lea2dj5squbic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068971652365:android:4dc74898fd8fabffe8ac44",
+        "android_client_info": {
+          "package_name": "ferkusteam.blackjack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068971652365-3v5nvgilf3tec1f4g6rsvtedjbaagjcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "994db7175cec27c6a6338cc41a94fad8665e8187"
+          }
+        },
+        {
+          "client_id": "1068971652365-4ice013vjprafol4oepm8hp2q19ml9j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "106f72484752fde015adab01c2d321711561c437"
+          }
+        },
+        {
+          "client_id": "1068971652365-7up3pdfi573r3u6ga8kflh2ual0ougvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "136352c9f5098d03f2a12309c7b1d51a43c3ec25"
+          }
+        },
+        {
+          "client_id": "1068971652365-9fnv2mu03o1fi39rbgtmumkq8cd11d03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "ebe28ed1663cdea2e977764f634b1a3834748b9c"
+          }
+        },
+        {
+          "client_id": "1068971652365-j1u2fneqi49ibb578lvkjtt5iigdc4mv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "a1119daef229d46facf3925555684f9d8b79d193"
+          }
+        },
+        {
+          "client_id": "1068971652365-ju6de1ire3p003cj1o6egkafhbcpn6d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "b0390d19cb6468fcd75b542b88c21e3d370dd888"
+          }
+        },
+        {
+          "client_id": "1068971652365-nrnol4vmoh64oh3tnleq13r34md2av1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "4f0cd76e0293a0e6e20f69e4a5901884c043fc70"
+          }
+        },
+        {
+          "client_id": "1068971652365-onllg2mfeondkpadi5reb3aj6bgdhbi8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "6b6c630d3c6ccabe8a981c4ee9906379732d9371"
+          }
+        },
+        {
+          "client_id": "1068971652365-tgmc6pti34ijunsul7epbp4cncqvj1gv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ferkusteam.blackjack",
+            "certificate_hash": "397381fbe299cdfe6d5d25dd2c15c5e817f14a47"
+          }
+        },
+        {
+          "client_id": "1068971652365-vpckjt9bhpedh5d3ru9lea2dj5squbic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyRHekdsWgecf0b1yl7vB_BuZAgaKKUYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068971652365-vpckjt9bhpedh5d3ru9lea2dj5squbic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

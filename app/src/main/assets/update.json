@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "huggingface": {
+    "repo_id": "luiz-sasd/gta-files-aurora",
+    "repo_type": "dataset",
+    "revision": "main",
+    "client_config_path": "client_config.json",
+    "files_path_prefix": "data-aurora/files"
+  }
+}
