@@ -219,9 +219,9 @@ public class LoadGameActivity extends AppCompatActivity {
 
         boolean isReinstall = getIntent().getBooleanExtra("is_reinstall", false);
         if (isReinstall) {
-            currentFileText.setText("ПЕРЕУСТАНОВКА...");
+            currentFileText.setText("MENGINSTAL ULANG...");
         } else {
-            currentFileText.setText("СКАЧИВАЮТСЯ ФАЙЛЫ: ");
+            currentFileText.setText("MENGUNDUH FILE: ");
         }
     }
 
@@ -287,18 +287,18 @@ public class LoadGameActivity extends AppCompatActivity {
                 if (progress < 70) {
                     boolean isReinstall = getIntent().getBooleanExtra("is_reinstall", false);
                     if (isReinstall) {
-                        currentFileText.setText("BAIXANDO ARQUIVOS DE ATUALIZAÇÃO...");
+                        currentFileText.setText("MENGUNDUH FILE PEMBARUAN...");
                     } else {
-                        currentFileText.setText("BAIXANDO ARQUIVOS DO JOGO...");
+                        currentFileText.setText("MENGUNDUH FILE GAME...");
                     }
                 } else if (progress < 100) {
-                    currentFileText.setText("FINALIZANDO INSTALAÇÃO...");
+                    currentFileText.setText("MENYELESAIKAN INSTALASI...");
                 } else {
                     boolean isReinstall = getIntent().getBooleanExtra("is_reinstall", false);
                     if (isReinstall) {
-                        currentFileText.setText("REINSTALAÇÃO CONCLUÍDA!");
+                        currentFileText.setText("INSTAL ULANG SELESAI!");
                     } else {
-                        currentFileText.setText("INSTALAÇÃO CONCLUÍDA!");
+                        currentFileText.setText("INSTALASI SELESAI!");
                     }
                 }
             }
@@ -645,11 +645,11 @@ public class LoadGameActivity extends AppCompatActivity {
                 }, 1500);
             } else {
                 if (isReinstall) {
-                    currentFileText.setText("ERRO NA REINSTALAÇÃO");
+                    currentFileText.setText("KESALAHAN SAAT INSTAL ULANG");
                 } else {
-                    currentFileText.setText("ERRO NA INSTALAÇÃO");
+                    currentFileText.setText("KESALAHAN SAAT INSTALASI");
                 }
-                downloadProgressText.setText("FALHA: " + errorMessage);
+                downloadProgressText.setText("GAGAL: " + errorMessage);
                 downloadProgressBar.setVisibility(View.VISIBLE);
                 downloadProgressText.setVisibility(View.VISIBLE);
 

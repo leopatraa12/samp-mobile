@@ -48,7 +48,7 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Instalando Data"
+            android:text="Menginstal Data"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="20sp"/>
@@ -57,7 +57,7 @@
             android:id="@+id/current_file"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Preparando arquivos..."
+            android:text="Menyiapkan file..."
             android:textColor="#BDBDBD"
             android:textSize="14sp"
             android:layout_marginTop="6dp"/>

@@ -102,7 +102,7 @@
             android:layout_height="@dimen/_12sdp"
             android:layout_marginStart="@dimen/_5sdp"
             android:src="@drawable/ic_close"
-            android:contentDescription="Закрыть"
+            android:contentDescription="Tutup"
             android:padding="@dimen/_1sdp"/>
 
     </LinearLayout>
@@ -134,7 +134,7 @@
             android:gravity="center_vertical"
             android:layout_width="@dimen/_40sdp"
             android:layout_height="wrap_content"
-            android:text="Игровой ник"
+            android:text="Nama Pemain"
             android:includeFontPadding="false"
             android:layout_weight="5"
             android:font="@font/notosans_black"/>
@@ -144,7 +144,7 @@
             android:textColor="#707070"
             android:layout_width="@dimen/_20sdp"
             android:layout_height="wrap_content"
-            android:text="Уровень"
+            android:text="Level"
             android:includeFontPadding="false"
             android:layout_weight="3"
             android:paddingStart="@dimen/_10sdp"
@@ -155,7 +155,7 @@
             android:textColor="#707070"
             android:layout_width="@dimen/_5sdp"
             android:layout_height="match_parent"
-            android:text="Пинг"
+            android:text="Ping"
             android:includeFontPadding="false"
             android:layout_weight="2"
             android:layout_marginStart="@dimen/_20sdp"

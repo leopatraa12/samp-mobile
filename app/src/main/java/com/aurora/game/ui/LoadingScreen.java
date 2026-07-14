@@ -42,7 +42,7 @@ public class LoadingScreen {
                 gameStatusText = mainLayout.findViewById(R.id.game_status);
 
                 if (gameStatusText != null) {
-                    gameStatusText.setText("Carregando Recursos...");
+                    gameStatusText.setText("Memuat Sumber Daya...");
                 }
 
                 ViewGroup rootView = (ViewGroup) activity.getWindow().getDecorView().getRootView();

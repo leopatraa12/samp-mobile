@@ -21,7 +21,7 @@
         android:id="@+id/game_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carregando Recursos.."
+        android:text="Memuat Sumber Daya.."
         android:fontFamily="@font/akrobat_bold"
         android:layout_marginEnd="@dimen/_5sdp"
         android:letterSpacing="0.2"

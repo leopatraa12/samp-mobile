@@ -45,7 +45,7 @@
             android:id="@+id/message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Новое уведомление"
+            android:text="Pemberitahuan Baru"
             android:maxLines="2"
             android:ellipsize="end"/>
 

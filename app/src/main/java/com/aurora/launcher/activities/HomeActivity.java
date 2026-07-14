@@ -155,7 +155,7 @@ public class HomeActivity extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                serverName.setText("Servidor Offline");
+                                serverName.setText("Server Offline");
                                 serverInfo.setText("0/0");
                             }
                         });
@@ -182,7 +182,7 @@ public class HomeActivity extends AppCompatActivity {
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            serverName.setText("Servidor Offline");
+                            serverName.setText("Server Offline");
                             serverInfo.setText("0/0");
                         }
                     });

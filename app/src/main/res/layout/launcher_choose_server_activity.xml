@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_semibold"
-            android:text="ВЫБЕРИТЕ СЕРВЕР"
+            android:text="PILIH SERVER"
             android:textColor="#ffffff"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView1"
@@ -95,7 +95,7 @@
                 android:textColor="#ffffffff"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вернуться в меню"
+                android:text="Kembali ke menu"
                 android:textAllCaps="true"
                 android:fontFamily="@font/montserrat_semibold"/>
         </LinearLayout>

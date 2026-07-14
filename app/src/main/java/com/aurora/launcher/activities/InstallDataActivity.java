@@ -44,7 +44,7 @@ public class InstallDataActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        status.setText("Concluído!");
+                        status.setText("Selesai!");
                         finish();
                     }
                 });
@@ -65,7 +65,7 @@ public class InstallDataActivity extends AppCompatActivity {
                 public void run() {
                     progress.setProgress(p);
                     percent.setText(p + "%");
-                    status.setText("Baixando data...");
+                    status.setText("Mengunduh data...");
                 }
             });
 
